@@ -1,0 +1,14 @@
+/* resources/css/admin-panel.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customizações do painel de admin */
+body {
+    background-color: #fafafa;
+}
+
+.fi-sidebar {
+    background: #fff8e1; /* Amber claro */
+}

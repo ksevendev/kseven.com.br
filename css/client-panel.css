@@ -1,0 +1,14 @@
+/* resources/css/client-panel.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customizações do painel de cliente */
+body {
+    background-color: #fafafa;
+}
+
+.fi-sidebar {
+    background: #fff8e1; /* Amber claro */
+}

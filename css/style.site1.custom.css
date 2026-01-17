@@ -1,0 +1,57 @@
+:root {
+  --text-dark: #000;
+}
+
+h6.contact-title {
+  font-size: 15px;
+}
+
+.vs-hero__subtitle {
+  color: var(--text-dark);
+}
+
+.vs-hero__title--highlight {
+  color: var(--text-dark);
+}
+
+p.client-text {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: small;
+  margin: 0 0 10px 0;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: var(--theme-color);
+  animation: rise 12s infinite ease-in;
+}
+
+.bubble i {
+  color: #fff;
+}
+
+.main-menu ul.mega-menu {
+  min-width: 190px;
+  width: max-content;
+  max-width: var(--main-container);
+}
+
+.modal {
+  z-index: 10000;
+}
+
+.image-gallery {
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
