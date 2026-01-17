@@ -1,1 +1,0 @@
-# kseven.com.br
